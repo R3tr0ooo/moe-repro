@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "device": "<GPU_UUID>",
+  "dtype": "CUDA FP64",
+  "policies": 24,
+  "prefix_policy_rows": 32576,
+  "historical_point_comparisons": 32,
+  "max_identity_or_historical_error": 2.220446049250313e-16,
+  "exact_permutations": 720,
+  "permutation_error": 3.469446951953614e-18,
+  "intervals_not_independently_recomputed": true,
+  "completed_utc": "2026-09-18T11:39:30.968425+00:00"
+}

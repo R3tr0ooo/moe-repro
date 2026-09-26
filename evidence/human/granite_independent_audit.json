@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "contexts": 903,
+  "maximum_score_error": 7.105427357601002e-15,
+  "maximum_prediction_error": 2.7755575615628914e-16,
+  "maximum_metric_error": 3.197442310920451e-14,
+  "complete_groups": 8,
+  "completed_at_utc": "2026-09-13T08:51:57.422078+00:00",
+  "scope": "original responses and input boundaries,complete case members,expert banks,all decisions,all metrics and grouped weights; independent respondent-pair formula where applicable",
+  "normalizers": "saved full-vocabulary readout normalizers checked by full forwards; not inferred from observed-class subsets"
+}

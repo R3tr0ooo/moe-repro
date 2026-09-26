@@ -1,0 +1,1152 @@
+{
+  "schema": "route_scale_test_lock_v1",
+  "status": "frozen",
+  "frozen_at_utc": "2026-09-25T10:24:00.094324+00:00",
+  "source": {
+    "path": "<LOCAL_PATH>",
+    "bytes": 9423496,
+    "mtime_ns": 1790308534131582100
+  },
+  "budget": 2000,
+  "files": [
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 457119,
+      "mtime_ns": 1790312456607525200
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2153,
+      "mtime_ns": 1790312422396004500
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2153,
+      "mtime_ns": 1790312422416041500
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 595085,
+      "mtime_ns": 1790312422817456200
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790312423606949100
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790312426321867800
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790312429088486300
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790312431783623400
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790312434510596400
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790312437228185100
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2153,
+      "mtime_ns": 1790312439236140600
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2153,
+      "mtime_ns": 1790312439250311900
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 595085,
+      "mtime_ns": 1790312439462053100
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790312440163017600
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790312445046183200
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790312445775320600
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790312448522616700
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790312451335044900
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790312456579637300
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 165746,
+      "mtime_ns": 1790331100163538600
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3358015,
+      "mtime_ns": 1790331080323658600
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3358015,
+      "mtime_ns": 1790331083551600700
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3358015,
+      "mtime_ns": 1790331089181819700
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3358015,
+      "mtime_ns": 1790331092680487700
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3358015,
+      "mtime_ns": 1790331095838788000
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3358015,
+      "mtime_ns": 1790331099031278500
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 457712,
+      "mtime_ns": 1790329180147245400
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2153,
+      "mtime_ns": 1790329144582936200
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2153,
+      "mtime_ns": 1790329144629867100
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 595085,
+      "mtime_ns": 1790329145397419600
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790329146310351400
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790329149094232500
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790329151894554200
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790329154848203200
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790329157730172100
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790329162636362400
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2153,
+      "mtime_ns": 1790329162661617800
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2153,
+      "mtime_ns": 1790329162683314500
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 595085,
+      "mtime_ns": 1790329163013179300
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790329163936163700
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790329168674678700
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790329169438175500
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790329172303506400
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790329175164895500
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2276607,
+      "mtime_ns": 1790329180110443000
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 165818,
+      "mtime_ns": 1790331277422842000
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3358015,
+      "mtime_ns": 1790331251697255700
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3358015,
+      "mtime_ns": 1790331255294500800
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3358015,
+      "mtime_ns": 1790331258787714600
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3358015,
+      "mtime_ns": 1790331265242978100
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3358015,
+      "mtime_ns": 1790331269090012700
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3358015,
+      "mtime_ns": 1790331270197147900
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 296818,
+      "mtime_ns": 1790330974681565900
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3902981,
+      "mtime_ns": 1790330947157251200
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3902981,
+      "mtime_ns": 1790330951316549000
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3902981,
+      "mtime_ns": 1790330951924016400
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3901769,
+      "mtime_ns": 1790330955747376100
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3901769,
+      "mtime_ns": 1790330956357754600
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3901769,
+      "mtime_ns": 1790330958513215200
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 6759557,
+      "mtime_ns": 1790330960807283400
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 6759557,
+      "mtime_ns": 1790330965188141900
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 6759557,
+      "mtime_ns": 1790330967750046400
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 6758345,
+      "mtime_ns": 1790330968416958100
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 6758345,
+      "mtime_ns": 1790330970647165400
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 6758345,
+      "mtime_ns": 1790330972911387200
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 39190036,
+      "mtime_ns": 1790313604772972000
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3922029,
+      "mtime_ns": 1790310970365120200
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 7010,
+      "mtime_ns": 1790311182793823400
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2953,
+      "mtime_ns": 1790311641715425100
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 6658,
+      "mtime_ns": 1790330986257459800
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 4024,
+      "mtime_ns": 1790330473590350200
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3811,
+      "mtime_ns": 1790331808009035700
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 42579,
+      "mtime_ns": 1790311788091706800
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 12864,
+      "mtime_ns": 1790330614970115600
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 3038,
+      "mtime_ns": 1790331078610387100
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 9216,
+      "mtime_ns": 1790331808010542700
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 6329,
+      "mtime_ns": 1790331839661159500
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 6206,
+      "mtime_ns": 1790331599196639600
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 30125,
+      "mtime_ns": 1790331346487556400
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 13510,
+      "mtime_ns": 1790331635070195300
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 32711,
+      "mtime_ns": 1790331206532926100
+    },
+    {
+      "path": "<LOCAL_PATH>",
+      "bytes": 2449,
+      "mtime_ns": 1790309675907965200
+    }
+  ],
+  "policies": [
+    {
+      "id": "1000__original__expected_gain__native__seed_None__fixed",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "native",
+      "seed": null,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "fixed"
+    },
+    {
+      "id": "1000__original__expected_gain__fixed_gate_rank__seed_None__fixed",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "fixed_gate_rank",
+      "seed": null,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "fixed"
+    },
+    {
+      "id": "1000__original__expected_gain__ridge__seed_None__penalty_1.0",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "ridge",
+      "seed": null,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "penalty_1.0"
+    },
+    {
+      "id": "1000__original__expected_gain__no_output_mlp__seed_20260925__step_200",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__original__expected_gain__no_output_mlp__seed_20260926__step_200",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__original__expected_gain__no_output_mlp__seed_20260927__step_200",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__original__expected_gain__full_output_mlp__seed_20260925__step_200",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__original__expected_gain__full_output_mlp__seed_20260926__step_200",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__original__expected_gain__full_output_mlp__seed_20260927__step_200",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__original__observed_gain__native__seed_None__fixed",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "native",
+      "seed": null,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "fixed"
+    },
+    {
+      "id": "1000__original__observed_gain__fixed_gate_rank__seed_None__fixed",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "fixed_gate_rank",
+      "seed": null,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "fixed"
+    },
+    {
+      "id": "1000__original__observed_gain__ridge__seed_None__penalty_1.0",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "ridge",
+      "seed": null,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "penalty_1.0"
+    },
+    {
+      "id": "1000__original__observed_gain__no_output_mlp__seed_20260925__step_200",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__original__observed_gain__no_output_mlp__seed_20260926__step_800",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "1000__original__observed_gain__no_output_mlp__seed_20260927__step_200",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__original__observed_gain__full_output_mlp__seed_20260925__step_200",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__original__observed_gain__full_output_mlp__seed_20260926__step_200",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__original__observed_gain__full_output_mlp__seed_20260927__step_800",
+      "budget": 1000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "1000__residual__expected_gain__no_output_mlp__seed_20260925__step_200",
+      "budget": 1000,
+      "adapter": "residual",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__residual__expected_gain__no_output_mlp__seed_20260926__step_200",
+      "budget": 1000,
+      "adapter": "residual",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__residual__expected_gain__no_output_mlp__seed_20260927__step_800",
+      "budget": 1000,
+      "adapter": "residual",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "1000__residual__expected_gain__full_output_mlp__seed_20260925__step_800",
+      "budget": 1000,
+      "adapter": "residual",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "1000__residual__expected_gain__full_output_mlp__seed_20260926__step_800",
+      "budget": 1000,
+      "adapter": "residual",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "1000__residual__expected_gain__full_output_mlp__seed_20260927__step_800",
+      "budget": 1000,
+      "adapter": "residual",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "10000__original__expected_gain__native__seed_None__fixed",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "native",
+      "seed": null,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "fixed"
+    },
+    {
+      "id": "10000__original__expected_gain__fixed_gate_rank__seed_None__fixed",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "fixed_gate_rank",
+      "seed": null,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "fixed"
+    },
+    {
+      "id": "10000__original__expected_gain__ridge__seed_None__penalty_1.0",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "ridge",
+      "seed": null,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "penalty_1.0"
+    },
+    {
+      "id": "10000__original__expected_gain__no_output_mlp__seed_20260925__step_200",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__original__expected_gain__no_output_mlp__seed_20260926__step_200",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__original__expected_gain__no_output_mlp__seed_20260927__step_200",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__original__expected_gain__full_output_mlp__seed_20260925__step_200",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__original__expected_gain__full_output_mlp__seed_20260926__step_200",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__original__expected_gain__full_output_mlp__seed_20260927__step_800",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "10000__original__observed_gain__native__seed_None__fixed",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "native",
+      "seed": null,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "fixed"
+    },
+    {
+      "id": "10000__original__observed_gain__fixed_gate_rank__seed_None__fixed",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "fixed_gate_rank",
+      "seed": null,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "fixed"
+    },
+    {
+      "id": "10000__original__observed_gain__ridge__seed_None__penalty_0.1",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "ridge",
+      "seed": null,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "penalty_0.1"
+    },
+    {
+      "id": "10000__original__observed_gain__no_output_mlp__seed_20260925__step_200",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__original__observed_gain__no_output_mlp__seed_20260926__step_800",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "10000__original__observed_gain__no_output_mlp__seed_20260927__step_200",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__original__observed_gain__full_output_mlp__seed_20260925__step_200",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__original__observed_gain__full_output_mlp__seed_20260926__step_200",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__original__observed_gain__full_output_mlp__seed_20260927__step_800",
+      "budget": 10000,
+      "adapter": "original",
+      "target": "observed_gain",
+      "selection_target": "observed_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "10000__residual__expected_gain__no_output_mlp__seed_20260925__step_200",
+      "budget": 10000,
+      "adapter": "residual",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__residual__expected_gain__no_output_mlp__seed_20260926__step_200",
+      "budget": 10000,
+      "adapter": "residual",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__residual__expected_gain__no_output_mlp__seed_20260927__step_200",
+      "budget": 10000,
+      "adapter": "residual",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "no_output_mlp",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__residual__expected_gain__full_output_mlp__seed_20260925__step_800",
+      "budget": 10000,
+      "adapter": "residual",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "10000__residual__expected_gain__full_output_mlp__seed_20260926__step_800",
+      "budget": 10000,
+      "adapter": "residual",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "10000__residual__expected_gain__full_output_mlp__seed_20260927__step_200",
+      "budget": 10000,
+      "adapter": "residual",
+      "target": "expected_gain",
+      "selection_target": "expected_gain",
+      "arm": "full_output_mlp",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__readout__1000__generic_readout__20260925__step_200",
+      "budget": 1000,
+      "adapter": "readout",
+      "target": "expected_gain",
+      "arm": "generic_readout",
+      "selection_target": "expected_gain",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__readout__1000__generic_readout__20260926__step_800",
+      "budget": 1000,
+      "adapter": "readout",
+      "target": "expected_gain",
+      "arm": "generic_readout",
+      "selection_target": "expected_gain",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "1000__readout__1000__generic_readout__20260927__step_200",
+      "budget": 1000,
+      "adapter": "readout",
+      "target": "expected_gain",
+      "arm": "generic_readout",
+      "selection_target": "expected_gain",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__readout__1000__structured_readout__20260925__step_800",
+      "budget": 1000,
+      "adapter": "readout",
+      "target": "expected_gain",
+      "arm": "structured_readout",
+      "selection_target": "expected_gain",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "1000__readout__1000__structured_readout__20260926__step_200",
+      "budget": 1000,
+      "adapter": "readout",
+      "target": "expected_gain",
+      "arm": "structured_readout",
+      "selection_target": "expected_gain",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "1000__readout__1000__structured_readout__20260927__step_200",
+      "budget": 1000,
+      "adapter": "readout",
+      "target": "expected_gain",
+      "arm": "structured_readout",
+      "selection_target": "expected_gain",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__readout__10000__generic_readout__20260925__step_200",
+      "budget": 10000,
+      "adapter": "readout",
+      "target": "expected_gain",
+      "arm": "generic_readout",
+      "selection_target": "expected_gain",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__readout__10000__generic_readout__20260926__step_800",
+      "budget": 10000,
+      "adapter": "readout",
+      "target": "expected_gain",
+      "arm": "generic_readout",
+      "selection_target": "expected_gain",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "10000__readout__10000__generic_readout__20260927__step_800",
+      "budget": 10000,
+      "adapter": "readout",
+      "target": "expected_gain",
+      "arm": "generic_readout",
+      "selection_target": "expected_gain",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_800"
+    },
+    {
+      "id": "10000__readout__10000__structured_readout__20260925__step_200",
+      "budget": 10000,
+      "adapter": "readout",
+      "target": "expected_gain",
+      "arm": "structured_readout",
+      "selection_target": "expected_gain",
+      "seed": 20260925,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__readout__10000__structured_readout__20260926__step_200",
+      "budget": 10000,
+      "adapter": "readout",
+      "target": "expected_gain",
+      "arm": "structured_readout",
+      "selection_target": "expected_gain",
+      "seed": 20260926,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    },
+    {
+      "id": "10000__readout__10000__structured_readout__20260927__step_200",
+      "budget": 10000,
+      "adapter": "readout",
+      "target": "expected_gain",
+      "arm": "structured_readout",
+      "selection_target": "expected_gain",
+      "seed": 20260927,
+      "path": "<LOCAL_PATH>",
+      "selection_result": "<LOCAL_PATH>",
+      "checkpoint": "step_200"
+    }
+  ],
+  "development_contracts": [
+    "<LOCAL_PATH>",
+    "<LOCAL_PATH>"
+  ],
+  "test_access_before_freeze": false,
+  "selection": "existing per-seed validation selection; all families, budgets and seeds retained",
+  "protocol": "<LOCAL_PATH>"
+}

@@ -1,0 +1,1160 @@
+{
+  "status": "mechanism_panel_complete",
+  "policy": {
+    "model": "olmoe",
+    "layer": 15,
+    "forward_dtype": "CUDA FP32",
+    "aggregation_dtype": "CUDA FP64",
+    "top_k": 8,
+    "parent_panel": "<LOCAL_PATH>",
+    "prefixes": 917,
+    "pools": 119,
+    "execution": "sequence-preserving selected-expert replay; singleton readout",
+    "engineering_pools": [
+      "list1_pool000",
+      "list7_pool008",
+      "list8_pool000"
+    ],
+    "alignment": "common physical expert IDs match themselves; remaining IDs pair in increasing physical-ID order",
+    "native": "recipient IDs and recipient weights; zero-gain reference",
+    "identity_only": "donor IDs and aligned recipient weights",
+    "weight_only": "recipient IDs and aligned donor weights",
+    "joint": "donor IDs and donor weights",
+    "renormalize": false,
+    "reoptimize_arms": false,
+    "choices": "existing parent JOINT-selected per-answer, same-answer shared, and support choices",
+    "weight_mass": "identity-only retains recipient mass; weight-only and joint inherit donor mass",
+    "inventory": "each-donor-once joint retains ID-weight multiset; all four arms retain expert-call counts in that family",
+    "missing": "zero gain for every arm; same complete people and fixed prefix denominator as parent",
+    "score": "same T=1 full-vocabulary case-class log probabilities as parent",
+    "qualification": "all 7269 joint replay cells match parent within 1e-5; new-arm full forwards below",
+    "forced_schedule": "all 64 recipient-donor cells for both new arms in first pool; one cyclic edge per arm in each later pool",
+    "forced_forwards": 364,
+    "capture_forwards": 917,
+    "parity_tolerance": "1e-5",
+    "new_population_information_bound": false,
+    "confidence_claim": false,
+    "secondary_previously_opened_panel": true,
+    "interaction": "joint minus identity-only minus weight-only at the SAME joint-selected assignment",
+    "downloads": false,
+    "offload": false,
+    "output_budget_bytes": 67108864
+  },
+  "progress": {
+    "completed_pools": [
+      "list1_pool000",
+      "list1_pool001",
+      "list1_pool002",
+      "list1_pool003",
+      "list1_pool004",
+      "list1_pool005",
+      "list1_pool006",
+      "list1_pool007",
+      "list1_pool008",
+      "list1_pool009",
+      "list1_pool010",
+      "list1_pool011",
+      "list1_pool012",
+      "list1_pool013",
+      "list1_pool014",
+      "list2_pool000",
+      "list2_pool001",
+      "list2_pool002",
+      "list2_pool003",
+      "list2_pool004",
+      "list2_pool005",
+      "list2_pool006",
+      "list2_pool007",
+      "list2_pool008",
+      "list2_pool009",
+      "list2_pool010",
+      "list2_pool011",
+      "list2_pool012",
+      "list2_pool013",
+      "list3_pool000",
+      "list3_pool001",
+      "list3_pool002",
+      "list3_pool003",
+      "list3_pool004",
+      "list3_pool005",
+      "list3_pool006",
+      "list3_pool007",
+      "list3_pool008",
+      "list3_pool009",
+      "list3_pool010",
+      "list3_pool011",
+      "list3_pool012",
+      "list3_pool013",
+      "list4_pool000",
+      "list4_pool001",
+      "list4_pool002",
+      "list4_pool003",
+      "list4_pool004",
+      "list4_pool005",
+      "list4_pool006",
+      "list4_pool007",
+      "list4_pool008",
+      "list4_pool009",
+      "list4_pool010",
+      "list4_pool011",
+      "list4_pool012",
+      "list4_pool013",
+      "list4_pool014",
+      "list4_pool015",
+      "list5_pool000",
+      "list5_pool001",
+      "list5_pool002",
+      "list5_pool003",
+      "list5_pool004",
+      "list5_pool005",
+      "list5_pool006",
+      "list5_pool007",
+      "list5_pool008",
+      "list5_pool009",
+      "list5_pool010",
+      "list5_pool011",
+      "list5_pool012",
+      "list5_pool013",
+      "list6_pool000",
+      "list6_pool001",
+      "list6_pool002",
+      "list6_pool003",
+      "list6_pool004",
+      "list6_pool005",
+      "list6_pool006",
+      "list6_pool007",
+      "list6_pool008",
+      "list6_pool009",
+      "list6_pool010",
+      "list6_pool011",
+      "list6_pool012",
+      "list6_pool013",
+      "list6_pool014",
+      "list7_pool000",
+      "list7_pool001",
+      "list7_pool002",
+      "list7_pool003",
+      "list7_pool004",
+      "list7_pool005",
+      "list7_pool006",
+      "list7_pool007",
+      "list7_pool008",
+      "list7_pool009",
+      "list7_pool010",
+      "list7_pool011",
+      "list7_pool012",
+      "list7_pool013",
+      "list7_pool014",
+      "list8_pool000",
+      "list8_pool001",
+      "list8_pool002",
+      "list8_pool003",
+      "list8_pool004",
+      "list8_pool005",
+      "list8_pool006",
+      "list8_pool007",
+      "list8_pool008",
+      "list8_pool009",
+      "list8_pool010",
+      "list8_pool011",
+      "list8_pool012",
+      "list8_pool013",
+      "list8_pool014",
+      "list8_pool015"
+    ],
+    "prefixes": 917,
+    "forced_validations": 364,
+    "active_pool": "list8_pool015"
+  },
+  "sample_means": {
+    "reuse__per_answer_joint_choice__identity_only": 0.3298583147585332,
+    "reuse__per_answer_joint_choice__weight_only": 0.10262127785585652,
+    "reuse__per_answer_joint_choice__joint": 0.4170831795598941,
+    "reuse__per_answer_joint_choice__interaction": -0.015396413054495758,
+    "reuse__same_answers_joint_choice__identity_only": 0.11510076856621893,
+    "reuse__same_answers_joint_choice__weight_only": 0.02347102072494693,
+    "reuse__same_answers_joint_choice__joint": 0.14179919675469765,
+    "reuse__same_answers_joint_choice__interaction": 0.0032274074635318044,
+    "reuse__other_people_joint_choice__identity_only": 0.09086054436518033,
+    "reuse__other_people_joint_choice__weight_only": 0.015662668198122627,
+    "reuse__other_people_joint_choice__joint": 0.10983337835599856,
+    "reuse__other_people_joint_choice__interaction": 0.003310165792695603,
+    "each_donor_once__per_answer_joint_choice__identity_only": 0.29367533115895217,
+    "each_donor_once__per_answer_joint_choice__weight_only": 0.07906646099299501,
+    "each_donor_once__per_answer_joint_choice__joint": 0.3565103697823844,
+    "each_donor_once__per_answer_joint_choice__interaction": -0.016231422369562782,
+    "each_donor_once__same_answers_joint_choice__identity_only": 0.0984231714040459,
+    "each_donor_once__same_answers_joint_choice__weight_only": 0.02116714511196324,
+    "each_donor_once__same_answers_joint_choice__joint": 0.11941508558121289,
+    "each_donor_once__same_answers_joint_choice__interaction": -0.00017523093479623485,
+    "each_donor_once__other_people_joint_choice__identity_only": 0.07585143196022508,
+    "each_donor_once__other_people_joint_choice__weight_only": 0.015150663087212371,
+    "each_donor_once__other_people_joint_choice__joint": 0.09485331719068314,
+    "each_donor_once__other_people_joint_choice__interaction": 0.0038512221432457235
+  },
+  "elapsed_ns_including_model_load": 812015734400,
+  "completed_files": [
+    {
+      "name": "started.json",
+      "bytes": 2360
+    },
+    {
+      "name": "list1_pool000_arms.npz",
+      "bytes": 140160
+    },
+    {
+      "name": "list1_pool000_summary.json",
+      "bytes": 2230
+    },
+    {
+      "name": "list1_pool001_arms.npz",
+      "bytes": 129003
+    },
+    {
+      "name": "list1_pool001_summary.json",
+      "bytes": 2215
+    },
+    {
+      "name": "list1_pool002_arms.npz",
+      "bytes": 99257
+    },
+    {
+      "name": "list1_pool002_summary.json",
+      "bytes": 2217
+    },
+    {
+      "name": "list1_pool003_arms.npz",
+      "bytes": 98921
+    },
+    {
+      "name": "list1_pool003_summary.json",
+      "bytes": 2225
+    },
+    {
+      "name": "list1_pool004_arms.npz",
+      "bytes": 118852
+    },
+    {
+      "name": "list1_pool004_summary.json",
+      "bytes": 2228
+    },
+    {
+      "name": "list1_pool005_arms.npz",
+      "bytes": 92033
+    },
+    {
+      "name": "list1_pool005_summary.json",
+      "bytes": 2225
+    },
+    {
+      "name": "list1_pool006_arms.npz",
+      "bytes": 115108
+    },
+    {
+      "name": "list1_pool006_summary.json",
+      "bytes": 2222
+    },
+    {
+      "name": "list1_pool007_arms.npz",
+      "bytes": 119362
+    },
+    {
+      "name": "list1_pool007_summary.json",
+      "bytes": 2224
+    },
+    {
+      "name": "list1_pool008_arms.npz",
+      "bytes": 94943
+    },
+    {
+      "name": "list1_pool008_summary.json",
+      "bytes": 2220
+    },
+    {
+      "name": "list1_pool009_arms.npz",
+      "bytes": 109754
+    },
+    {
+      "name": "list1_pool009_summary.json",
+      "bytes": 2228
+    },
+    {
+      "name": "list1_pool010_arms.npz",
+      "bytes": 107269
+    },
+    {
+      "name": "list1_pool010_summary.json",
+      "bytes": 2227
+    },
+    {
+      "name": "list1_pool011_arms.npz",
+      "bytes": 109895
+    },
+    {
+      "name": "list1_pool011_summary.json",
+      "bytes": 2230
+    },
+    {
+      "name": "list1_pool012_arms.npz",
+      "bytes": 83391
+    },
+    {
+      "name": "list1_pool012_summary.json",
+      "bytes": 2220
+    },
+    {
+      "name": "list1_pool013_arms.npz",
+      "bytes": 110941
+    },
+    {
+      "name": "list1_pool013_summary.json",
+      "bytes": 2221
+    },
+    {
+      "name": "list1_pool014_arms.npz",
+      "bytes": 14046
+    },
+    {
+      "name": "list1_pool014_summary.json",
+      "bytes": 1831
+    },
+    {
+      "name": "list2_pool000_arms.npz",
+      "bytes": 88761
+    },
+    {
+      "name": "list2_pool000_summary.json",
+      "bytes": 2218
+    },
+    {
+      "name": "list2_pool001_arms.npz",
+      "bytes": 110143
+    },
+    {
+      "name": "list2_pool001_summary.json",
+      "bytes": 2214
+    },
+    {
+      "name": "list2_pool002_arms.npz",
+      "bytes": 110677
+    },
+    {
+      "name": "list2_pool002_summary.json",
+      "bytes": 2224
+    },
+    {
+      "name": "list2_pool003_arms.npz",
+      "bytes": 96441
+    },
+    {
+      "name": "list2_pool003_summary.json",
+      "bytes": 2236
+    },
+    {
+      "name": "list2_pool004_arms.npz",
+      "bytes": 109483
+    },
+    {
+      "name": "list2_pool004_summary.json",
+      "bytes": 2217
+    },
+    {
+      "name": "list2_pool005_arms.npz",
+      "bytes": 108884
+    },
+    {
+      "name": "list2_pool005_summary.json",
+      "bytes": 2236
+    },
+    {
+      "name": "list2_pool006_arms.npz",
+      "bytes": 103927
+    },
+    {
+      "name": "list2_pool006_summary.json",
+      "bytes": 2223
+    },
+    {
+      "name": "list2_pool007_arms.npz",
+      "bytes": 104471
+    },
+    {
+      "name": "list2_pool007_summary.json",
+      "bytes": 2225
+    },
+    {
+      "name": "list2_pool008_arms.npz",
+      "bytes": 94583
+    },
+    {
+      "name": "list2_pool008_summary.json",
+      "bytes": 2226
+    },
+    {
+      "name": "list2_pool009_arms.npz",
+      "bytes": 100271
+    },
+    {
+      "name": "list2_pool009_summary.json",
+      "bytes": 2230
+    },
+    {
+      "name": "list2_pool010_arms.npz",
+      "bytes": 90828
+    },
+    {
+      "name": "list2_pool010_summary.json",
+      "bytes": 2219
+    },
+    {
+      "name": "list2_pool011_arms.npz",
+      "bytes": 101363
+    },
+    {
+      "name": "list2_pool011_summary.json",
+      "bytes": 2224
+    },
+    {
+      "name": "list2_pool012_arms.npz",
+      "bytes": 101315
+    },
+    {
+      "name": "list2_pool012_summary.json",
+      "bytes": 2228
+    },
+    {
+      "name": "list2_pool013_arms.npz",
+      "bytes": 57517
+    },
+    {
+      "name": "list2_pool013_summary.json",
+      "bytes": 2227
+    },
+    {
+      "name": "list3_pool000_arms.npz",
+      "bytes": 115739
+    },
+    {
+      "name": "list3_pool000_summary.json",
+      "bytes": 2216
+    },
+    {
+      "name": "list3_pool001_arms.npz",
+      "bytes": 106814
+    },
+    {
+      "name": "list3_pool001_summary.json",
+      "bytes": 2166
+    },
+    {
+      "name": "list3_pool002_arms.npz",
+      "bytes": 111548
+    },
+    {
+      "name": "list3_pool002_summary.json",
+      "bytes": 2225
+    },
+    {
+      "name": "list3_pool003_arms.npz",
+      "bytes": 93048
+    },
+    {
+      "name": "list3_pool003_summary.json",
+      "bytes": 2221
+    },
+    {
+      "name": "list3_pool004_arms.npz",
+      "bytes": 125801
+    },
+    {
+      "name": "list3_pool004_summary.json",
+      "bytes": 2226
+    },
+    {
+      "name": "list3_pool005_arms.npz",
+      "bytes": 97664
+    },
+    {
+      "name": "list3_pool005_summary.json",
+      "bytes": 2221
+    },
+    {
+      "name": "list3_pool006_arms.npz",
+      "bytes": 106824
+    },
+    {
+      "name": "list3_pool006_summary.json",
+      "bytes": 2223
+    },
+    {
+      "name": "list3_pool007_arms.npz",
+      "bytes": 102169
+    },
+    {
+      "name": "list3_pool007_summary.json",
+      "bytes": 2212
+    },
+    {
+      "name": "list3_pool008_arms.npz",
+      "bytes": 117352
+    },
+    {
+      "name": "list3_pool008_summary.json",
+      "bytes": 2223
+    },
+    {
+      "name": "list3_pool009_arms.npz",
+      "bytes": 110975
+    },
+    {
+      "name": "list3_pool009_summary.json",
+      "bytes": 2230
+    },
+    {
+      "name": "list3_pool010_arms.npz",
+      "bytes": 100948
+    },
+    {
+      "name": "list3_pool010_summary.json",
+      "bytes": 2222
+    },
+    {
+      "name": "list3_pool011_arms.npz",
+      "bytes": 87053
+    },
+    {
+      "name": "list3_pool011_summary.json",
+      "bytes": 2220
+    },
+    {
+      "name": "list3_pool012_arms.npz",
+      "bytes": 102975
+    },
+    {
+      "name": "list3_pool012_summary.json",
+      "bytes": 2223
+    },
+    {
+      "name": "list3_pool013_arms.npz",
+      "bytes": 14194
+    },
+    {
+      "name": "list3_pool013_summary.json",
+      "bytes": 1831
+    },
+    {
+      "name": "list4_pool000_arms.npz",
+      "bytes": 118370
+    },
+    {
+      "name": "list4_pool000_summary.json",
+      "bytes": 2224
+    },
+    {
+      "name": "list4_pool001_arms.npz",
+      "bytes": 123593
+    },
+    {
+      "name": "list4_pool001_summary.json",
+      "bytes": 2222
+    },
+    {
+      "name": "list4_pool002_arms.npz",
+      "bytes": 116618
+    },
+    {
+      "name": "list4_pool002_summary.json",
+      "bytes": 2229
+    },
+    {
+      "name": "list4_pool003_arms.npz",
+      "bytes": 125859
+    },
+    {
+      "name": "list4_pool003_summary.json",
+      "bytes": 2221
+    },
+    {
+      "name": "list4_pool004_arms.npz",
+      "bytes": 86816
+    },
+    {
+      "name": "list4_pool004_summary.json",
+      "bytes": 2218
+    },
+    {
+      "name": "list4_pool005_arms.npz",
+      "bytes": 120512
+    },
+    {
+      "name": "list4_pool005_summary.json",
+      "bytes": 2223
+    },
+    {
+      "name": "list4_pool006_arms.npz",
+      "bytes": 97317
+    },
+    {
+      "name": "list4_pool006_summary.json",
+      "bytes": 2216
+    },
+    {
+      "name": "list4_pool007_arms.npz",
+      "bytes": 105823
+    },
+    {
+      "name": "list4_pool007_summary.json",
+      "bytes": 2224
+    },
+    {
+      "name": "list4_pool008_arms.npz",
+      "bytes": 113641
+    },
+    {
+      "name": "list4_pool008_summary.json",
+      "bytes": 2218
+    },
+    {
+      "name": "list4_pool009_arms.npz",
+      "bytes": 106180
+    },
+    {
+      "name": "list4_pool009_summary.json",
+      "bytes": 2231
+    },
+    {
+      "name": "list4_pool010_arms.npz",
+      "bytes": 127942
+    },
+    {
+      "name": "list4_pool010_summary.json",
+      "bytes": 2215
+    },
+    {
+      "name": "list4_pool011_arms.npz",
+      "bytes": 80775
+    },
+    {
+      "name": "list4_pool011_summary.json",
+      "bytes": 2224
+    },
+    {
+      "name": "list4_pool012_arms.npz",
+      "bytes": 101605
+    },
+    {
+      "name": "list4_pool012_summary.json",
+      "bytes": 2226
+    },
+    {
+      "name": "list4_pool013_arms.npz",
+      "bytes": 95327
+    },
+    {
+      "name": "list4_pool013_summary.json",
+      "bytes": 2224
+    },
+    {
+      "name": "list4_pool014_arms.npz",
+      "bytes": 90564
+    },
+    {
+      "name": "list4_pool014_summary.json",
+      "bytes": 2228
+    },
+    {
+      "name": "list4_pool015_arms.npz",
+      "bytes": 14437
+    },
+    {
+      "name": "list4_pool015_summary.json",
+      "bytes": 1831
+    },
+    {
+      "name": "list5_pool000_arms.npz",
+      "bytes": 112925
+    },
+    {
+      "name": "list5_pool000_summary.json",
+      "bytes": 2228
+    },
+    {
+      "name": "list5_pool001_arms.npz",
+      "bytes": 116436
+    },
+    {
+      "name": "list5_pool001_summary.json",
+      "bytes": 2224
+    },
+    {
+      "name": "list5_pool002_arms.npz",
+      "bytes": 109889
+    },
+    {
+      "name": "list5_pool002_summary.json",
+      "bytes": 2216
+    },
+    {
+      "name": "list5_pool003_arms.npz",
+      "bytes": 114141
+    },
+    {
+      "name": "list5_pool003_summary.json",
+      "bytes": 2231
+    },
+    {
+      "name": "list5_pool004_arms.npz",
+      "bytes": 92030
+    },
+    {
+      "name": "list5_pool004_summary.json",
+      "bytes": 2217
+    },
+    {
+      "name": "list5_pool005_arms.npz",
+      "bytes": 114167
+    },
+    {
+      "name": "list5_pool005_summary.json",
+      "bytes": 2218
+    },
+    {
+      "name": "list5_pool006_arms.npz",
+      "bytes": 109701
+    },
+    {
+      "name": "list5_pool006_summary.json",
+      "bytes": 2215
+    },
+    {
+      "name": "list5_pool007_arms.npz",
+      "bytes": 109410
+    },
+    {
+      "name": "list5_pool007_summary.json",
+      "bytes": 2220
+    },
+    {
+      "name": "list5_pool008_arms.npz",
+      "bytes": 103911
+    },
+    {
+      "name": "list5_pool008_summary.json",
+      "bytes": 2227
+    },
+    {
+      "name": "list5_pool009_arms.npz",
+      "bytes": 99228
+    },
+    {
+      "name": "list5_pool009_summary.json",
+      "bytes": 2221
+    },
+    {
+      "name": "list5_pool010_arms.npz",
+      "bytes": 97615
+    },
+    {
+      "name": "list5_pool010_summary.json",
+      "bytes": 2225
+    },
+    {
+      "name": "list5_pool011_arms.npz",
+      "bytes": 119087
+    },
+    {
+      "name": "list5_pool011_summary.json",
+      "bytes": 2232
+    },
+    {
+      "name": "list5_pool012_arms.npz",
+      "bytes": 111348
+    },
+    {
+      "name": "list5_pool012_summary.json",
+      "bytes": 2221
+    },
+    {
+      "name": "list5_pool013_arms.npz",
+      "bytes": 97046
+    },
+    {
+      "name": "list5_pool013_summary.json",
+      "bytes": 2225
+    },
+    {
+      "name": "list6_pool000_arms.npz",
+      "bytes": 93789
+    },
+    {
+      "name": "list6_pool000_summary.json",
+      "bytes": 2222
+    },
+    {
+      "name": "list6_pool001_arms.npz",
+      "bytes": 105059
+    },
+    {
+      "name": "list6_pool001_summary.json",
+      "bytes": 2221
+    },
+    {
+      "name": "list6_pool002_arms.npz",
+      "bytes": 98430
+    },
+    {
+      "name": "list6_pool002_summary.json",
+      "bytes": 2226
+    },
+    {
+      "name": "list6_pool003_arms.npz",
+      "bytes": 111210
+    },
+    {
+      "name": "list6_pool003_summary.json",
+      "bytes": 2217
+    },
+    {
+      "name": "list6_pool004_arms.npz",
+      "bytes": 118737
+    },
+    {
+      "name": "list6_pool004_summary.json",
+      "bytes": 2212
+    },
+    {
+      "name": "list6_pool005_arms.npz",
+      "bytes": 96865
+    },
+    {
+      "name": "list6_pool005_summary.json",
+      "bytes": 2216
+    },
+    {
+      "name": "list6_pool006_arms.npz",
+      "bytes": 96230
+    },
+    {
+      "name": "list6_pool006_summary.json",
+      "bytes": 2221
+    },
+    {
+      "name": "list6_pool007_arms.npz",
+      "bytes": 102259
+    },
+    {
+      "name": "list6_pool007_summary.json",
+      "bytes": 2219
+    },
+    {
+      "name": "list6_pool008_arms.npz",
+      "bytes": 78154
+    },
+    {
+      "name": "list6_pool008_summary.json",
+      "bytes": 2230
+    },
+    {
+      "name": "list6_pool009_arms.npz",
+      "bytes": 93579
+    },
+    {
+      "name": "list6_pool009_summary.json",
+      "bytes": 2221
+    },
+    {
+      "name": "list6_pool010_arms.npz",
+      "bytes": 108733
+    },
+    {
+      "name": "list6_pool010_summary.json",
+      "bytes": 2221
+    },
+    {
+      "name": "list6_pool011_arms.npz",
+      "bytes": 109847
+    },
+    {
+      "name": "list6_pool011_summary.json",
+      "bytes": 2220
+    },
+    {
+      "name": "list6_pool012_arms.npz",
+      "bytes": 89262
+    },
+    {
+      "name": "list6_pool012_summary.json",
+      "bytes": 2221
+    },
+    {
+      "name": "list6_pool013_arms.npz",
+      "bytes": 111327
+    },
+    {
+      "name": "list6_pool013_summary.json",
+      "bytes": 2219
+    },
+    {
+      "name": "list6_pool014_arms.npz",
+      "bytes": 81370
+    },
+    {
+      "name": "list6_pool014_summary.json",
+      "bytes": 2228
+    },
+    {
+      "name": "list7_pool000_arms.npz",
+      "bytes": 107005
+    },
+    {
+      "name": "list7_pool000_summary.json",
+      "bytes": 2239
+    },
+    {
+      "name": "list7_pool001_arms.npz",
+      "bytes": 117934
+    },
+    {
+      "name": "list7_pool001_summary.json",
+      "bytes": 2226
+    },
+    {
+      "name": "list7_pool002_arms.npz",
+      "bytes": 108003
+    },
+    {
+      "name": "list7_pool002_summary.json",
+      "bytes": 2220
+    },
+    {
+      "name": "list7_pool003_arms.npz",
+      "bytes": 100931
+    },
+    {
+      "name": "list7_pool003_summary.json",
+      "bytes": 2229
+    },
+    {
+      "name": "list7_pool004_arms.npz",
+      "bytes": 103423
+    },
+    {
+      "name": "list7_pool004_summary.json",
+      "bytes": 2224
+    },
+    {
+      "name": "list7_pool005_arms.npz",
+      "bytes": 105520
+    },
+    {
+      "name": "list7_pool005_summary.json",
+      "bytes": 2223
+    },
+    {
+      "name": "list7_pool006_arms.npz",
+      "bytes": 118866
+    },
+    {
+      "name": "list7_pool006_summary.json",
+      "bytes": 2219
+    },
+    {
+      "name": "list7_pool007_arms.npz",
+      "bytes": 79893
+    },
+    {
+      "name": "list7_pool007_summary.json",
+      "bytes": 2225
+    },
+    {
+      "name": "list7_pool008_arms.npz",
+      "bytes": 94482
+    },
+    {
+      "name": "list7_pool008_summary.json",
+      "bytes": 2214
+    },
+    {
+      "name": "list7_pool009_arms.npz",
+      "bytes": 112260
+    },
+    {
+      "name": "list7_pool009_summary.json",
+      "bytes": 2225
+    },
+    {
+      "name": "list7_pool010_arms.npz",
+      "bytes": 90970
+    },
+    {
+      "name": "list7_pool010_summary.json",
+      "bytes": 2235
+    },
+    {
+      "name": "list7_pool011_arms.npz",
+      "bytes": 106196
+    },
+    {
+      "name": "list7_pool011_summary.json",
+      "bytes": 2214
+    },
+    {
+      "name": "list7_pool012_arms.npz",
+      "bytes": 88491
+    },
+    {
+      "name": "list7_pool012_summary.json",
+      "bytes": 2223
+    },
+    {
+      "name": "list7_pool013_arms.npz",
+      "bytes": 108542
+    },
+    {
+      "name": "list7_pool013_summary.json",
+      "bytes": 2219
+    },
+    {
+      "name": "list7_pool014_arms.npz",
+      "bytes": 37226
+    },
+    {
+      "name": "list7_pool014_summary.json",
+      "bytes": 2169
+    },
+    {
+      "name": "list8_pool000_arms.npz",
+      "bytes": 101396
+    },
+    {
+      "name": "list8_pool000_summary.json",
+      "bytes": 2227
+    },
+    {
+      "name": "list8_pool001_arms.npz",
+      "bytes": 96950
+    },
+    {
+      "name": "list8_pool001_summary.json",
+      "bytes": 2219
+    },
+    {
+      "name": "list8_pool002_arms.npz",
+      "bytes": 116812
+    },
+    {
+      "name": "list8_pool002_summary.json",
+      "bytes": 2228
+    },
+    {
+      "name": "list8_pool003_arms.npz",
+      "bytes": 100549
+    },
+    {
+      "name": "list8_pool003_summary.json",
+      "bytes": 2213
+    },
+    {
+      "name": "list8_pool004_arms.npz",
+      "bytes": 98286
+    },
+    {
+      "name": "list8_pool004_summary.json",
+      "bytes": 2232
+    },
+    {
+      "name": "list8_pool005_arms.npz",
+      "bytes": 113864
+    },
+    {
+      "name": "list8_pool005_summary.json",
+      "bytes": 2227
+    },
+    {
+      "name": "list8_pool006_arms.npz",
+      "bytes": 100717
+    },
+    {
+      "name": "list8_pool006_summary.json",
+      "bytes": 2232
+    },
+    {
+      "name": "list8_pool007_arms.npz",
+      "bytes": 108215
+    },
+    {
+      "name": "list8_pool007_summary.json",
+      "bytes": 2218
+    },
+    {
+      "name": "list8_pool008_arms.npz",
+      "bytes": 120237
+    },
+    {
+      "name": "list8_pool008_summary.json",
+      "bytes": 2220
+    },
+    {
+      "name": "list8_pool009_arms.npz",
+      "bytes": 112472
+    },
+    {
+      "name": "list8_pool009_summary.json",
+      "bytes": 2218
+    },
+    {
+      "name": "list8_pool010_arms.npz",
+      "bytes": 82690
+    },
+    {
+      "name": "list8_pool010_summary.json",
+      "bytes": 2228
+    },
+    {
+      "name": "list8_pool011_arms.npz",
+      "bytes": 106803
+    },
+    {
+      "name": "list8_pool011_summary.json",
+      "bytes": 2225
+    },
+    {
+      "name": "list8_pool012_arms.npz",
+      "bytes": 99182
+    },
+    {
+      "name": "list8_pool012_summary.json",
+      "bytes": 2222
+    },
+    {
+      "name": "list8_pool013_arms.npz",
+      "bytes": 109075
+    },
+    {
+      "name": "list8_pool013_summary.json",
+      "bytes": 2224
+    },
+    {
+      "name": "list8_pool014_arms.npz",
+      "bytes": 94274
+    },
+    {
+      "name": "list8_pool014_summary.json",
+      "bytes": 2228
+    },
+    {
+      "name": "list8_pool015_arms.npz",
+      "bytes": 24029
+    },
+    {
+      "name": "list8_pool015_summary.json",
+      "bytes": 2089
+    },
+    {
+      "name": "aggregate.npz",
+      "bytes": 156970
+    }
+  ],
+  "confidence_claim": false,
+  "no_reoptimization_or_new_model_training": true
+}

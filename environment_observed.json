@@ -1,0 +1,6 @@
+{
+  "scope": "Numerical verification runtime; not the original training environment",
+  "versions": {
+    "torch": "2.10.0.dev20251114+cu128"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "status": "pass",
+  "completed_at_utc": "2026-09-19T02:35:30.097572+00:00",
+  "frozen_ridge_parity": {
+    "status": "pass",
+    "exact_matched_actions": 917,
+    "maximum_score_error": 6.453171330633722e-16,
+    "arithmetic": "CUDA FP64",
+    "fit_or_tuning": false
+  },
+  "matched_fixed_rank_action_parity": 917,
+  "cells": [
+    {
+      "partition": "pilot",
+      "respondents": "support",
+      "prefixes": 230,
+      "response_counts": {
+        "declared": 5520,
+        "valid": 5518,
+        "missing": 2
+      },
+      "mean_log_utility": {
+        "native": -3.7741353051024333,
+        "frozen_ridge": -3.693362676912778,
+        "fixed_slot13": -3.771864376080305,
+        "fixed_rank17": -3.7722484239718646,
+        "support_best": -3.693265453698939
+      },
+      "gain_vs_native": {
+        "native": 0.0,
+        "frozen_ridge": 0.0807726281896558,
+        "fixed_slot13": 0.002270929022129422,
+        "fixed_rank17": 0.001886881130568864,
+        "support_best": 0.08086985140349459
+      },
+      "ridge_minus_fixed_slot": 0.07850169916752638,
+      "ridge_minus_fixed_rank": 0.07888574705908692
+    },
+    {
+      "partition": "pilot",
+      "respondents": "evaluation",
+      "prefixes": 230,
+      "response_counts": {
+        "declared": 12620,
+        "valid": 12617,
+        "missing": 3
+      },
+      "mean_log_utility": {
+        "native": -3.788276823009358,
+        "frozen_ridge": -3.7276747244728674,
+        "fixed_slot13": -3.779609545918843,
+        "fixed_rank17": -3.7843270760300953,
+        "support_best": -3.7274678760609548
+      },
+      "gain_vs_native": {
+        "native": 0.0,
+        "frozen_ridge": 0.060602098536491046,
+        "fixed_slot13": 0.008667277090514992,
+        "fixed_rank17": 0.00394974697926177,
+        "support_best": 0.060808946948404
+      },
+      "ridge_minus_fixed_slot": 0.051934821445976054,
+      "ridge_minus_fixed_rank": 0.05665235155722927
+    },
+    {
+      "partition": "confirmation",
+      "respondents": "support",
+      "prefixes": 917,
+      "response_counts": {
+        "declared": 22008,
+        "valid": 22000,
+        "missing": 8
+      },
+      "mean_log_utility": {
+        "native": -4.156740728061617,
+        "frozen_ridge": -4.152036091755045,
+        "fixed_slot13": -4.157572298467628,
+        "fixed_rank17": -4.162129924155606,
+        "support_best": -4.076240096886749
+      },
+      "gain_vs_native": {
+        "native": 0.0,
+        "frozen_ridge": 0.004704636306572394,
+        "fixed_slot13": -0.0008315704060104849,
+        "fixed_rank17": -0.005389196093987475,
+        "support_best": 0.08050063117486875
+      },
+      "ridge_minus_fixed_slot": 0.00553620671258288,
+      "ridge_minus_fixed_rank": 0.010093832400559869
+    },
+    {
+      "partition": "confirmation",
+      "respondents": "evaluation",
+      "prefixes": 917,
+      "response_counts": {
+        "declared": 50215,
+        "valid": 50214,
+        "missing": 1
+      },
+      "mean_log_utility": {
+        "native": -4.107669696334208,
+        "frozen_ridge": -4.103023610231843,
+        "fixed_slot13": -4.108393995866435,
+        "fixed_rank17": -4.114318806267688,
+        "support_best": -4.051482698919438
+      },
+      "gain_vs_native": {
+        "native": 0.0,
+        "frozen_ridge": 0.004646086102364598,
+        "fixed_slot13": -0.0007242995322272309,
+        "fixed_rank17": -0.00664910993348034,
+        "support_best": 0.05618699741477027
+      },
+      "ridge_minus_fixed_slot": 0.005370385634591829,
+      "ridge_minus_fixed_rank": 0.011295196035844939
+    }
+  ],
+  "descriptive_gain_differences": {
+    "pilot_support_minus_pilot_evaluation": {
+      "native": 0.0,
+      "frozen_ridge": 0.020170529653164758,
+      "fixed_slot13": -0.00639634806838557,
+      "fixed_rank17": -0.0020628658486929064,
+      "support_best": 0.020060904455090595
+    },
+    "confirmation_support_minus_confirmation_evaluation": {
+      "native": 0.0,
+      "frozen_ridge": 5.8550204207795734e-05,
+      "fixed_slot13": -0.000107270873783254,
+      "fixed_rank17": 0.0012599138394928655,
+      "support_best": 0.02431363376009848
+    },
+    "pilot_support_minus_confirmation_support": {
+      "native": 0.0,
+      "frozen_ridge": 0.07606799188308341,
+      "fixed_slot13": 0.003102499428139907,
+      "fixed_rank17": 0.0072760772245563385,
+      "support_best": 0.0003692202286258439
+    },
+    "pilot_evaluation_minus_confirmation_evaluation": {
+      "native": 0.0,
+      "frozen_ridge": 0.05595601243412645,
+      "fixed_slot13": 0.009391576622742223,
+      "fixed_rank17": 0.010598856912742111,
+      "support_best": 0.004621949533633728
+    }
+  },
+  "scope": "Secondary descriptive diagnostic after old results, not independent confirmation; no causal percentages, CI, significance, retraining or new policy.",
+  "support_best_scope": "Feedback-conditioned per-prefix comparator, not optimal and not a deployable new-text router.",
+  "arithmetic": "All scientific operations and validation CUDA FP64; NumPy I/O only."
+}

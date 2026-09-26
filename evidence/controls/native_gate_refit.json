@@ -1,0 +1,230 @@
+{
+  "rows": [
+    {
+      "model": "olmoe",
+      "setting": "UCL",
+      "prefix_means": {
+        "selected_refit": -0.002058680268119296,
+        "physical_coordinate": 0.0046460861023645906,
+        "rank_coordinate": -0.000693406815090007,
+        "global_rank": -0.006649109933480336
+      },
+      "equal_group_means": {
+        "selected_refit": -0.0021098987162277453,
+        "physical_coordinate": 0.004594081069551451,
+        "rank_coordinate": -0.0008379603231320372,
+        "global_rank": -0.006891330678503926
+      },
+      "prefix_selected_contrasts": {
+        "minus_physical_coordinate": -0.006704766370483887,
+        "minus_rank_coordinate": -0.0013652734530292892,
+        "minus_global_slot": -0.0013343807358920973,
+        "minus_global_rank": 0.00459042966536104
+      },
+      "equal_group_selected_minus_controls": {
+        "physical_coordinate": -0.006703979785779197,
+        "rank_coordinate": -0.0012719383930957081,
+        "global_rank": 0.004781431962276181
+      },
+      "selected_refit_switch_fraction": 0.984732824427481
+    },
+    {
+      "model": "olmoe",
+      "setting": "UCL to Provo",
+      "prefix_means": {
+        "selected_refit": -0.003667063265021554,
+        "physical_coordinate": 0.0011406261139244567,
+        "rank_coordinate": 0.01006252211050916,
+        "global_rank": 0.0376528216226371
+      },
+      "equal_group_means": {
+        "selected_refit": -0.003677653556264101,
+        "physical_coordinate": 0.0003439344961847827,
+        "rank_coordinate": 0.007273747553851305,
+        "global_rank": 0.03135363898053477
+      },
+      "prefix_selected_contrasts": {
+        "minus_physical_coordinate": -0.00480768937894601,
+        "minus_rank_coordinate": -0.013729585375530713,
+        "minus_global_slot": -0.002981926041766606,
+        "minus_global_rank": -0.04131988488765865
+      },
+      "equal_group_selected_minus_controls": {
+        "physical_coordinate": -0.004021588052448884,
+        "rank_coordinate": -0.010951401110115406,
+        "global_rank": -0.03503129253679887
+      },
+      "selected_refit_switch_fraction": 0.866540164452878
+    },
+    {
+      "model": "olmoe",
+      "setting": "Provo 230",
+      "prefix_means": {
+        "selected_refit": -0.005990746198025828,
+        "physical_coordinate": 0.0047509407318229455,
+        "rank_coordinate": 0.013292889306822512,
+        "global_rank": 0.01170129995891414
+      },
+      "equal_group_means": {
+        "selected_refit": -0.006193342046133912,
+        "physical_coordinate": 0.0034579848130689944,
+        "rank_coordinate": 0.011118573489877112,
+        "global_rank": 0.008545215144651138
+      },
+      "prefix_selected_contrasts": {
+        "minus_physical_coordinate": -0.010741686929848775,
+        "minus_rank_coordinate": -0.01928363550484834,
+        "minus_global_slot": -0.00620647461490879,
+        "minus_global_rank": -0.017692046156939967
+      },
+      "equal_group_selected_minus_controls": {
+        "physical_coordinate": -0.009651326859202907,
+        "rank_coordinate": -0.017311915536011024,
+        "global_rank": -0.01473855719078505
+      },
+      "selected_refit_switch_fraction": 0.681214421252372
+    },
+    {
+      "model": "olmoe",
+      "setting": "Provo all",
+      "prefix_means": {
+        "selected_refit": -0.005540685613618238,
+        "physical_coordinate": 0.010089891804413493,
+        "rank_coordinate": 0.03818093549930169,
+        "global_rank": 0.03792799411688359
+      },
+      "equal_group_means": {
+        "selected_refit": -0.005223687951835457,
+        "physical_coordinate": 0.00950310968456599,
+        "rank_coordinate": 0.03148223511979002,
+        "global_rank": 0.03126446802397722
+      },
+      "prefix_selected_contrasts": {
+        "minus_physical_coordinate": -0.01563057741803173,
+        "minus_rank_coordinate": -0.043721621112919926,
+        "minus_global_slot": 0.0019016446664895693,
+        "minus_global_rank": -0.04346867973050183
+      },
+      "equal_group_selected_minus_controls": {
+        "physical_coordinate": -0.014726797636401447,
+        "rank_coordinate": -0.03670592307162548,
+        "global_rank": -0.036488155975812675
+      },
+      "selected_refit_switch_fraction": 0.5243516761543328
+    },
+    {
+      "model": "qwen",
+      "setting": "UCL",
+      "prefix_means": {
+        "selected_refit": 0.01136148195837075,
+        "physical_coordinate": 0.014831931116921878,
+        "rank_coordinate": 0.00987122260643326,
+        "global_rank": 0.001079488242410283
+      },
+      "equal_group_means": {
+        "selected_refit": 0.011329031783236077,
+        "physical_coordinate": 0.014660022874768513,
+        "rank_coordinate": 0.009837813225993322,
+        "global_rank": 0.0010111518505859177
+      },
+      "prefix_selected_contrasts": {
+        "minus_physical_coordinate": -0.0034704491585511275,
+        "minus_rank_coordinate": 0.0014902593519374903,
+        "minus_global_slot": 0.009872764610395861,
+        "minus_global_rank": 0.010281993715960468
+      },
+      "equal_group_selected_minus_controls": {
+        "physical_coordinate": -0.0033309910915324363,
+        "rank_coordinate": 0.0014912185572427544,
+        "global_rank": 0.010317879932650159
+      },
+      "selected_refit_switch_fraction": 0.9476553980370774
+    },
+    {
+      "model": "qwen",
+      "setting": "UCL to Provo",
+      "prefix_means": {
+        "selected_refit": -0.004749946680654145,
+        "physical_coordinate": 0.0032279753126723655,
+        "rank_coordinate": 0.02176526886635858,
+        "global_rank": 0.022489504887279882
+      },
+      "equal_group_means": {
+        "selected_refit": -0.00692120447350538,
+        "physical_coordinate": 0.0014837415672268298,
+        "rank_coordinate": 0.013526975329732623,
+        "global_rank": 0.01349435979693444
+      },
+      "prefix_selected_contrasts": {
+        "minus_physical_coordinate": -0.00797792199332651,
+        "minus_rank_coordinate": -0.026515215547012725,
+        "minus_global_slot": -0.012391766666397432,
+        "minus_global_rank": -0.027239451567934028
+      },
+      "equal_group_selected_minus_controls": {
+        "physical_coordinate": -0.00840494604073221,
+        "rank_coordinate": -0.020448179803238004,
+        "global_rank": -0.02041556427043982
+      },
+      "selected_refit_switch_fraction": 0.855787476280835
+    },
+    {
+      "model": "qwen",
+      "setting": "Provo 230",
+      "prefix_means": {
+        "selected_refit": 0.0019907172782894166,
+        "physical_coordinate": 0.0028180205898253896,
+        "rank_coordinate": 0.022333829134147304,
+        "global_rank": 0.010677376342669492
+      },
+      "equal_group_means": {
+        "selected_refit": 0.0016800261339165003,
+        "physical_coordinate": 0.002174150405231206,
+        "rank_coordinate": 0.01731094296481821,
+        "global_rank": 0.005549668047547751
+      },
+      "prefix_selected_contrasts": {
+        "minus_physical_coordinate": -0.000827303311535973,
+        "minus_rank_coordinate": -0.02034311185585789,
+        "minus_global_slot": 0.014325061276723014,
+        "minus_global_rank": -0.008686659064380075
+      },
+      "equal_group_selected_minus_controls": {
+        "physical_coordinate": -0.0004941242713147056,
+        "rank_coordinate": -0.01563091683090171,
+        "global_rank": -0.0038696419136312506
+      },
+      "selected_refit_switch_fraction": 0.6925996204933587
+    },
+    {
+      "model": "qwen",
+      "setting": "Provo all",
+      "prefix_means": {
+        "selected_refit": 0.00024684973924223513,
+        "physical_coordinate": 0.006628228828326191,
+        "rank_coordinate": 0.03152454032113311,
+        "global_rank": 0.02131741298529947
+      },
+      "equal_group_means": {
+        "selected_refit": 0.0002540567448282274,
+        "physical_coordinate": 0.008347310213747659,
+        "rank_coordinate": 0.02530628525040703,
+        "global_rank": 0.012477771478064928
+      },
+      "prefix_selected_contrasts": {
+        "minus_physical_coordinate": -0.006381379089083956,
+        "minus_rank_coordinate": -0.03127769058189087,
+        "minus_global_slot": -0.006630039753930829,
+        "minus_global_rank": -0.021070563246057238
+      },
+      "equal_group_selected_minus_controls": {
+        "physical_coordinate": -0.008093253468919431,
+        "rank_coordinate": -0.025052228505578804,
+        "global_rank": -0.0122237147332367
+      },
+      "selected_refit_switch_fraction": 0.6622390891840607
+    }
+  ],
+  "comparisons": "matched refit only",
+  "uncertainty": "no new CI or replication claim"
+}
